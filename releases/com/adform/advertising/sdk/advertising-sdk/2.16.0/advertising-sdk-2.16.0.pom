@@ -9,7 +9,7 @@
   <repositories>
     <repository>
       <id>header-bidding-sdk</id>
-      <url>https://github.com/adform/adform-header-bidding-sdk/raw/master/releases/<url>
+      <url>https://github.com/adform/adform-header-bidding-sdk/raw/master/releases/</url>
     </repository>
   </repositories>
   <dependencies>
