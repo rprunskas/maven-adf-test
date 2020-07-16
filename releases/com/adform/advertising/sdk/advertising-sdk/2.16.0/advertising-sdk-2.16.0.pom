@@ -6,5 +6,18 @@
   <version>2.16.0</version>
   <packaging>aar</packaging>
   <name>com.adform.advertising.sdk:advertising-sdk</name>
-  <dependencies/>
+  <repositories>
+    <repository>
+      <id>header-bidding-sdk</id>
+      <url>https://github.com/adform/adform-header-bidding-sdk/raw/master/releases/<url>
+    </repository>
+  </repositories>
+  <dependencies>
+     <dependency>
+      <groupId>com.adform</groupId>
+      <artifactId>adform-header-bidding-sdk</artifactId>
+      <version>2.16.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
 </project>
